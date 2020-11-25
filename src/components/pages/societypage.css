@@ -1,0 +1,30 @@
+.images
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.images img
+{
+    width:20vw;
+    height: 30vh;
+}
+.inner
+{
+    display: flex;
+}
+.images div 
+{
+    background-color: black;
+    padding: 1rem;
+}
+.heading
+{
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    background-color: coral;
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
