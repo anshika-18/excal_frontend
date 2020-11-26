@@ -9,7 +9,7 @@ export default class Navbar extends Component{
         <div className="nav-side" >
     <nav className="navbar">
 
-        <img className="logo" src="" alt="..."></img>
+     <div className="logo"><img className="logo"src="https://www.educationevolving.org/sites/all/themes/eetheme/images/ee-logo-og.png"></img></div>
         <ul className="nav-links">
             <li>
                 <Link to="/" className="nav-link">HOME</Link>
@@ -27,7 +27,7 @@ export default class Navbar extends Component{
                 <Link to="/contact" className="nav-link">Contact</Link>
             </li>
         </ul>
-       <Link to="/sign in" className="sign_in"> <button className="sign">Sign in</button></Link>
+       <Link to="/signin" className="sign_in"> <button className="sign">Sign in</button></Link>
       
     </nav>
 

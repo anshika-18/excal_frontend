@@ -1,10 +1,35 @@
+.main
+{
+    background-image:linear-gradient(0deg, lawngreen 0%, black 74%);
+}
 .video
 {
     width:70vw;
     margin-left: 15vw;
 }
-.main
+.anshu
 {
-    background-image:linear-gradient(0deg, lawngreen 0%, black 74%);
-
+    width:99vw
+}
+.anshi
+{
+    width:20vw;
+    height: 20vw;
+    background-color: cyan;
+}
+ 
+.upcoming
+{
+    margin-left: 40vw;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: white;
+   animation-name:example ;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+}
+@keyframes example
+{
+    from{color:white;}
+    to{color:red;}
 }

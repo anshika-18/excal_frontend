@@ -19,23 +19,23 @@ export default class society extends Component{
                         })}
                 </div>
                 <div class="color">
-                    <div class="slide">
+                    <div class="slid">
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
-    <div class="carousel-item active">
+    <div class="carousel-item active hell">
       <img src={excalibur} class="d-block w-100" alt="..."></img>
 
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item  hell">
       <img src={chatbot} class="d-block w-100" alt="..."></img>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item hell">
       <img src={game} class="d-block w-100" alt="..."></img>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item hell">
       <img src={hackathon} class="d-block w-100" alt="..."></img>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item hell">
       <img src={astrom} class="d-block w-100" alt="..."></img>
     </div>
   </div>

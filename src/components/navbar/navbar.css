@@ -3,7 +3,8 @@
     height:70px;
     width:70px;
     border-radius: 50%;
-    border: 2px solid cyan;
+    color:white;
+    font-size: 2.5rem;
 }
 .sign_in
 {
